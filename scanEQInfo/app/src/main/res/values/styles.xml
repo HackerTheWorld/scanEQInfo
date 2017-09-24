@@ -1,0 +1,69 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+	<style name="TopBg">
+	    <item name="android:background">@drawable/top_bg</item>
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+	</style>
+	<style name="TopTitleText">
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:textColor">@color/white</item>
+	    <item name="android:textSize">24sp</item>
+	</style>
+	<style name="BasicText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/BasicTextSize</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+	<style name="BottomBg">
+	    <item name="android:background">@drawable/bottom_bg</item>
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:layout_alignParentBottom">true</item>
+	    </style> 
+	 <style name="Personal">
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:textColor">@color/black</item>
+	    <item name="android:textSize">15sp</item>
+	 </style>
+	 <style name="inputStyle">
+	     <item name="android:textStyle">normal</item>
+	     <item name="android:textColor">@color/gain</item>
+	     <item name="android:textSize">15sp</item>
+	 </style>
+	 <style name="loginLabelStyle">
+	     <item name="android:textStyle">normal</item>
+	     <item name="android:textColor">@color/blue1</item>
+	     <item name="android:textSize">16sp</item>
+	 </style>
+	 <style name="myDialogStyle" parent="@android:style/Theme.Dialog">
+	 	<item name="android:windowBackground">@android:color/transparent</item>  
+        <item name="android:windowFrame">@null</item>  
+        <item name="android:windowNoTitle">true</item>  
+        <item name="android:windowIsFloating">true</item>  
+        <item name="android:windowIsTranslucent">true</item>  
+        <item name="android:windowContentOverlay">@null</item>  
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>  
+        <item name="android:backgroundDimEnabled">true</item>
+	 </style>
+
+	<style name="LoadingDialog" parent="@android:Theme.Dialog">
+		<!-- Dialog的windowFrame框为无 -->
+		<item name="android:windowFrame">@null</item>
+		<!-- 是否无标题 -->
+		<item name="android:windowNoTitle">true</item>
+		<!-- 窗口是否悬浮 -->
+		<item name="android:windowIsFloating">true</item>
+		<!-- 是否有覆盖 -->
+		<item name="android:windowContentOverlay">@null</item>
+		<!-- 是否半透明 -->
+		<item name="android:windowIsTranslucent">true</item>
+		<!-- 窗口背景，默认0.5 -->
+		<item name="android:windowBackground">@android:color/transparent</item>
+		<!-- 设置dialog的背景 -->
+		<item name="android:background">@drawable/loading_bg</item>
+		<!-- 是否允许对话框外的背景变暗 -->
+		<item name="android:backgroundDimEnabled">true</item>
+	</style>
+</resources>

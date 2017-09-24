@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="XLargerTextSize">22.0dip</dimen>
+    <dimen name="LargerTextSize">20.0dip</dimen>
+    <dimen name="BasicTextSize">15.0dip</dimen>
+    <dimen name="TitleTextSize">18.0dip</dimen>
+    <dimen name="OrderTextSize">13.0dip</dimen>
+    <dimen name="SmallerTextSize">12.0dip</dimen>
+    <dimen name="TinyTextSize">10.0dip</dimen>
+    <dimen name="padding">5.0dip</dimen>
+    <dimen name="middle_padding">15.0dip</dimen>
+</resources>

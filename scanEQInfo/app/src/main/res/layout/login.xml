@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/bg">
+    
+    <RelativeLayout
+        android:id="@+id/fujindeche_1" style="@style/TopBg" >
+        <TextView
+            style="@style/TopTitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="登录" />
+    </RelativeLayout>
+	
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:layout_marginTop="30dip"
+        android:layout_marginLeft="15dip" android:layout_marginRight="15dip">
+        <LinearLayout android:background="@drawable/login_iput1" android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:orientation="vertical">
+            <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content"
+                android:layout_width="fill_parent" android:padding="12dp">
+
+                <TextView
+                    style="@style/loginLabelStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="账号：" />
+                <EditText android:id="@+id/userId" 
+                     style="@style/inputStyle" android:singleLine="true" 
+                     android:background="@null" android:text=""
+                     android:inputType="text"
+                    android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" 
+                android:layout_width="fill_parent" android:padding="12dp">
+                <TextView android:text="密码：" style="@style/loginLabelStyle" 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <EditText android:id="@+id/pwdId"
+                     style="@style/inputStyle" android:singleLine="true" 
+                     android:background="@null" android:password="true" android:text=""
+                    android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+       
+        
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" android:layout_marginTop="30dip" android:gravity="center_horizontal">
+            <Button android:id="@+id/btn_setting" 
+                android:background="@drawable/set_sure_icon1" android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Button android:id="@+id/btn_login"
+                android:background="@drawable/login_icon2" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_marginLeft="15dip"/>
+        </LinearLayout>
+    </LinearLayout>
+    
+</LinearLayout>

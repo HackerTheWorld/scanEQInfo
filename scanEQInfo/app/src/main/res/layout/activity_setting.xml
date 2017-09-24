@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:id="@+id/fujindeche_1" style="@style/TopBg" >
+        <TextView
+            style="@style/TopTitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="设置" />
+    </RelativeLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:id="@+id/Infrared"
+            android:text="123" />
+
+        <EditText android:id="@+id/set_url"
+        style="@style/inputStyle"
+        android:background="@null" android:text=""
+        android:inputType="text"
+        android:layout_height="100px"
+        android:layout_width="200dp"
+        android:padding="5dip"
+        android:layout_margin="36dip"
+        android:textColorHint="#AAAAAA"
+        android:textSize="15dip"
+        android:hint="服务器地址"
+        android:singleLine="true"
+        android:selectAllOnFocus="true" />
+
+    <Button
+        android:text="测试并提交"
+        android:layout_height="50dp"
+        android:id="@+id/btn_setconnect"
+        android:layout_weight="0.00"
+        android:layout_width="100dp" />
+    </LinearLayout>
+
+</LinearLayout>
